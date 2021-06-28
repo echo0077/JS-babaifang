@@ -1,5 +1,4 @@
-# JS-babaifang
-原生JS仿写的八百方网上药店 
+# 原生JS仿写的八百方网上药店 
 
 后端使用php和MySQL 
 
