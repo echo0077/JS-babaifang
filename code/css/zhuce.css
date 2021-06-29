@@ -1,0 +1,420 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+#box .content {
+  width: 1190px;
+  margin: auto;
+}
+
+#box #top-nav {
+  width: 100%;
+  height: 35px;
+  border: 1px solid #e9e9e9;
+  border-left: none;
+  border-right: none;
+  background-color: #f7f7f7;
+}
+
+#box .center-box {
+  height: 58px;
+  margin: 36px auto 0;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+#box .center-box .logo {
+  display: block;
+  float: left;
+  width: 190px;
+  height: inherit;
+}
+
+#box .center-box .center-ensure {
+  width: 272px;
+  display: flex;
+  float: right;
+}
+
+#box .center-box .center-ensure em {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 38px;
+  color: #6c6c6c;
+  margin-left: 3px;
+  font-family: microsoft yahei;
+}
+
+#box .center-box .center-ensure .top-zheng {
+  margin-right: 28px;
+}
+
+#box .center-box .center-ensure p,
+#box .center-box .center-ensure a {
+  display: block;
+  height: 38px;
+  display: flex;
+}
+
+#box .center-box .center-ensure p .icon-zheng,
+#box .center-box .center-ensure a .icon-zheng {
+  width: 34px;
+  height: 38px;
+  vertical-align: middle;
+  background-position: -3px -466px;
+}
+
+#box .center-box .center-ensure .icon-bao {
+  width: 35px;
+  height: 38px;
+  vertical-align: middle;
+  background-position: -3px -504px;
+}
+
+#box .classify .b_login {
+  margin: 14px 0 55px 0;
+  width: 100%;
+  height: 480px;
+  background: url(../images/bg.jpg);
+}
+
+#box .classify .b_login .ly_r, #box .classify .b_login .ly_rt {
+  position: relative;
+  float: right;
+  width: 370px;
+  height: 400px;
+  margin-top: 40px;
+  margin-right: 50px;
+  margin-bottom: 40px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+#box .classify .b_login .ly_r .hd-tab, #box .classify .b_login .ly_rt .hd-tab {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #d6d6d6;
+  box-sizing: border-box;
+  display: flex;
+}
+
+#box .classify .b_login .ly_r .hd-tab .btn-hd-sign,
+#box .classify .b_login .ly_r .hd-tab .btn-hd-login,
+#box .classify .b_login .ly_r .hd-tab .btn-hd-tel,
+#box .classify .b_login .ly_r .hd-tab .btn-hd-email, #box .classify .b_login .ly_rt .hd-tab .btn-hd-sign,
+#box .classify .b_login .ly_rt .hd-tab .btn-hd-login,
+#box .classify .b_login .ly_rt .hd-tab .btn-hd-tel,
+#box .classify .b_login .ly_rt .hd-tab .btn-hd-email {
+  display: inline-block;
+  width: 48.5%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  cursor: pointer;
+}
+
+#box .classify .b_login .ly_r .hd-tab .btn-hd-sign span,
+#box .classify .b_login .ly_r .hd-tab .btn-hd-login span,
+#box .classify .b_login .ly_r .hd-tab .btn-hd-tel span,
+#box .classify .b_login .ly_r .hd-tab .btn-hd-email span, #box .classify .b_login .ly_rt .hd-tab .btn-hd-sign span,
+#box .classify .b_login .ly_rt .hd-tab .btn-hd-login span,
+#box .classify .b_login .ly_rt .hd-tab .btn-hd-tel span,
+#box .classify .b_login .ly_rt .hd-tab .btn-hd-email span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #234f98;
+}
+
+#box .classify .b_login .ly_r .hd-tab .current, #box .classify .b_login .ly_rt .hd-tab .current {
+  color: #e51a6c;
+  cursor: text;
+}
+
+#box .classify .b_login .ly_r .hd-tab .btn-hd-tel, #box .classify .b_login .ly_rt .hd-tab .btn-hd-tel {
+  cursor: pointer;
+}
+
+#box .classify .b_login .ly_r .hd-tab .gap, #box .classify .b_login .ly_rt .hd-tab .gap {
+  display: inline-block;
+  height: 30px;
+  width: 1px;
+  margin-top: 15px;
+  background-color: #d6d6d6;
+}
+
+#box .classify .b_login .ly_r .login-main, #box .classify .b_login .ly_rt .login-main {
+  padding: 20px;
+}
+
+#box .classify .b_login .ly_r .login-main .sign-hint, #box .classify .b_login .ly_rt .login-main .sign-hint {
+  width: 100%;
+  height: 32px;
+  border-radius: 3px;
+  background-color: #feebe2;
+  display: none;
+}
+
+#box .classify .b_login .ly_r .login-main .sign-hint .hint-icon, #box .classify .b_login .ly_rt .login-main .sign-hint .hint-icon {
+  margin-left: 10px;
+  margin-top: 8px;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  background-color: #f2216f;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  float: left;
+}
+
+#box .classify .b_login .ly_r .login-main .sign-hint p, #box .classify .b_login .ly_rt .login-main .sign-hint p {
+  padding-top: 6px;
+  padding-left: 35px;
+  color: #999;
+}
+
+#box .classify .b_login .ly_r .login-main .form-inline-email, #box .classify .b_login .ly_rt .login-main .form-inline-email {
+  display: none;
+}
+
+#box .classify .b_login .ly_r .login-main .form-sign, #box .classify .b_login .ly_rt .login-main .form-sign {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  padding-left: 40px;
+  margin-top: 10px;
+  background-color: #e7e7e7;
+  box-sizing: border-box;
+  border: 1px solid #d5d5d5;
+  border-radius: 3px;
+  line-height: 38px;
+}
+
+#box .classify .b_login .ly_r .login-main .form-sign img, #box .classify .b_login .ly_rt .login-main .form-sign img {
+  position: absolute;
+  left: 12px;
+  top: 10px;
+}
+
+#box .classify .b_login .ly_r .login-main .form-sign input, #box .classify .b_login .ly_rt .login-main .form-sign input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding-left: 10px;
+  border-left: 1px solid #d5d5d5;
+  border-right: 1px solid transparent;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 38px;
+  display: inline-block;
+}
+
+#box .classify .b_login .ly_r .login-main .form-sign .change-eye, #box .classify .b_login .ly_rt .login-main .form-sign .change-eye {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 14%;
+  height: 100%;
+  cursor: pointer;
+}
+
+#box .classify .b_login .ly_r .login-main .form-sign .eye-hide, #box .classify .b_login .ly_rt .login-main .form-sign .eye-hide {
+  background: url(../images/hide-eye.png) no-repeat center center;
+}
+
+#box .classify .b_login .ly_r .login-main .form-sign .eye-show, #box .classify .b_login .ly_rt .login-main .form-sign .eye-show {
+  background: url(../images/pwd-eye.png) no-repeat center center;
+}
+
+#box .classify .b_login .ly_r .login-main .form-sign .get-note,
+#box .classify .b_login .ly_r .login-main .form-sign .get-noted, #box .classify .b_login .ly_rt .login-main .form-sign .get-note,
+#box .classify .b_login .ly_rt .login-main .form-sign .get-noted {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 35%;
+  height: 100%;
+  cursor: pointer;
+  background-color: #f1639d;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  line-height: 40px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+#box .classify .b_login .ly_r .login-main .form-sign .get-noted, #box .classify .b_login .ly_rt .login-main .form-sign .get-noted {
+  display: none;
+}
+
+#box .classify .b_login .ly_r .login-main .form-inline-pwd, #box .classify .b_login .ly_rt .login-main .form-inline-pwd {
+  margin-top: 20px;
+}
+
+#box .classify .b_login .ly_r .login-main .form-change-forget, #box .classify .b_login .ly_rt .login-main .form-change-forget {
+  width: 100%;
+  margin-top: 10px;
+  color: #666;
+  overflow: auto;
+}
+
+#box .classify .b_login .ly_r .login-main .form-change-forget a, #box .classify .b_login .ly_rt .login-main .form-change-forget a {
+  color: inherit;
+}
+
+#box .classify .b_login .ly_r .login-main .form-change-forget .pwd-text, #box .classify .b_login .ly_rt .login-main .form-change-forget .pwd-text {
+  display: none;
+}
+
+#box .classify .b_login .ly_r .login-main .form-change-forget .forget-pwd, #box .classify .b_login .ly_rt .login-main .form-change-forget .forget-pwd {
+  float: right;
+}
+
+#box .classify .b_login .ly_r .login-main .sign-submit,
+#box .classify .b_login .ly_r .login-main .login-btn-submit, #box .classify .b_login .ly_rt .login-main .sign-submit,
+#box .classify .b_login .ly_rt .login-main .login-btn-submit {
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  margin-top: 10px;
+  border-radius: 3px;
+  background-color: #f1156f;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 0px;
+  user-select: none;
+}
+
+#box .classify .b_login .ly_r .login-main .sign-submit-gray, #box .classify .b_login .ly_rt .login-main .sign-submit-gray {
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  margin-top: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #e7e7e7;
+  color: #999;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 0px;
+  user-select: none;
+}
+
+#box .classify .b_login .ly_r .login-main .form-sign-pwd .password-show, #box .classify .b_login .ly_rt .login-main .form-sign-pwd .password-show {
+  display: none;
+}
+
+#box .classify .b_login .ly_r .login-main .auto_log, #box .classify .b_login .ly_rt .login-main .auto_log {
+  width: 100%;
+  margin-top: 10px;
+  color: #666;
+  overflow: auto;
+}
+
+#box .classify .b_login .ly_r .login-main .auto_log .status-sign, #box .classify .b_login .ly_rt .login-main .auto_log .status-sign {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  border: 1px solid #f1156f;
+  background: #f1156f url(../images/right.png) no-repeat 2px 3px;
+  -webkit-appearance: none;
+  border-radius: 8px;
+  outline: none;
+  vertical-align: middle;
+}
+
+#box .classify .b_login .ly_r .login-main .auto_log .status-sign:checked, #box .classify .b_login .ly_rt .login-main .auto_log .status-sign:checked {
+  background-color: #fff;
+  border: 1px solid #999;
+}
+
+#box .classify .b_login .ly_r .login-main .auto_log .status-inline, #box .classify .b_login .ly_rt .login-main .auto_log .status-inline {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  -webkit-appearance: none;
+  border-radius: 8px;
+  outline: none;
+  vertical-align: middle;
+  background-color: #fff;
+  border: 1px solid #999;
+}
+
+#box .classify .b_login .ly_r .login-main .auto_log .status-inline:checked, #box .classify .b_login .ly_rt .login-main .auto_log .status-inline:checked {
+  border: 1px solid #f1156f;
+  background: #f1156f url(../images/right.png) no-repeat 2px 3px;
+}
+
+#box .classify .b_login .ly_r .login-main .auto_log a, #box .classify .b_login .ly_rt .login-main .auto_log a {
+  color: #999;
+}
+
+#box .classify .b_login .ly_r .login-main .auto_log a:hover, #box .classify .b_login .ly_rt .login-main .auto_log a:hover {
+  color: #13489d;
+}
+
+#box .classify .b_login .ly_r .login-main .auto_log-inline, #box .classify .b_login .ly_rt .login-main .auto_log-inline {
+  margin-top: 20px;
+}
+
+#box .classify .b_login .ly_r .login-main .auto_log-inline a, #box .classify .b_login .ly_rt .login-main .auto_log-inline a {
+  float: right;
+}
+
+#box .classify .b_login .ly_r .login-main .auto_log-inline a:hover, #box .classify .b_login .ly_rt .login-main .auto_log-inline a:hover {
+  color: #999;
+}
+
+#box .classify .b_login .ly_r .login-other, #box .classify .b_login .ly_rt .login-other {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 52px;
+  border-top: 1px solid #e9e9e9;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #f8f8f8;
+}
+
+#box .classify .b_login .ly_r .login-other li, #box .classify .b_login .ly_rt .login-other li {
+  float: left;
+  width: 91.75px;
+  line-height: 52px;
+  text-align: center;
+}
+
+#box .classify .b_login .ly_r .login-other li img, #box .classify .b_login .ly_rt .login-other li img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#box .classify .b_login .ly_r .login-other li .gaps, #box .classify .b_login .ly_rt .login-other li .gaps {
+  float: right;
+  display: block;
+  width: 1px;
+  height: 12px;
+  margin-top: 21px;
+  line-height: 52px;
+  background-color: #bdbdbd;
+}
+
+#box .classify .b_login .ly_r .login-other li a, #box .classify .b_login .ly_rt .login-other li a {
+  color: inherit;
+}

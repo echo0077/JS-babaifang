@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    // height: 100%;
+    font: 12px/22px tahoma, arial;
+}
+
+a {
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.i-icon {
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../images/asses56.png) no-repeat;
+}
+.content {
+    width: 1190px;
+    margin: auto;
+}
+
+.footer-cont {
+    height: 604px;
+
+    .ft-ensure-box {
+        height: 100px;
+        width: 100%;
+        background: #fff;
+
+        .ensure-list {
+
+            .ensure-item {
+                float: left;
+                width: 198px;
+                height: 50px;
+                padding: 22px 0 28px;
+
+                .i-icon {
+                    float: left;
+                    margin-right: 10px;
+                    width: 50px;
+                    height: 50px;
+                }
+
+                .ensure-tit {
+                    font-family: microsoft yahei;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #1b1b1b;
+                }
+
+                .ensure-desp {
+                    line-height: 14px;
+                    color: #919191;
+                }
+
+                .red-zheng {
+                    background-position: -50px -258px;
+                }
+
+                .red-kuai {
+                    background-position: -50px -408px;
+                }
+
+                .red-huan {
+                    background-position: -50px -358px;
+                }
+
+                .red-pei {
+                    background-position: -50px -458px;
+                }
+
+                .red-bao {
+                    background-position: -50px -208px;
+                }
+
+                .red-xun {
+                    background-position: -50px -308px;
+                }
+            }
+
+        }
+
+    }
+
+    .ft-info-box {
+        height: 144px;
+        padding: 32px 0 38px;
+        background: #f4f4f4;
+
+        .content {
+            display: flex;
+        }
+
+        .info-content-list {
+            height: 144px;
+            width: 630px;
+            display: flex;
+
+            .info-content-item {
+                display: flex;
+                flex-direction: column;
+                width: 155px;
+                height: 100%;
+
+                .info-tit {
+                    width: 155px;
+                    height: 26px;
+                    font-size: 14px;
+                    line-height: 26px;
+                    color: #262626;
+
+                    .i-icon {
+                        margin-top: -2px;
+                        margin-right: 10px;
+                        vertical-align: middle;
+                    }
+
+                    .black-nav {
+                        width: 26px;
+                        height: 26px;
+                        background-position: -23px -247px;
+                    }
+
+                    .black-card {
+                        width: 26px;
+                        height: 18px;
+                        background-position: -23px -273px;
+                    }
+
+                    .black-heart {
+                        width: 26px;
+                        height: 18px;
+                        background-position: -23px -291px;
+                    }
+
+                    .black-help {
+                        width: 26px;
+                        height: 26px;
+                        background-position: -23px -309px;
+                    }
+                }
+
+                a {
+                    line-height: 18px;
+                    display: block;
+                    height: 18px;
+                    margin-bottom: 8px;
+                    text-indent: 38px;
+                    color: #6a6a6a;
+
+                    &:hover {
+                        color: #e6186f;
+                    }
+                }
+            }
+        }
+
+        .info-contact {
+            width: 186px;
+            height: 100%;
+
+            .ic-tel {
+                font-size: 22px;
+                line-height: 32px;
+                height: 32px;
+                color: #3b3b3b;
+            }
+
+            .ic-time {
+                font-family: microsoft yahei;
+                line-height: 18px;
+                height: 18px;
+                padding-bottom: 6px;
+                color: #a5a5a5;
+                border-bottom: 1px solid #a4a4a4;
+            }
+
+            .ic-weibo {
+                line-height: 24px;
+                display: block;
+                height: 24px;
+                margin-top: 11px;
+                color: #8f8f8f;
+
+                .icon-weibo {
+                    margin-right: 15px;
+                    vertical-align: top;
+                    width: 25px;
+                    height: 20px;
+                    background-position: -23px -225px;
+                }
+            }
+
+            .ic-mail {
+                line-height: 14px;
+                display: block;
+                height: 14px;
+                margin-top: 8px;
+                color: #8f8f8f;
+
+                .black-mail {
+                    margin-top: -2px;
+                    margin-right: 18px;
+                    margin-left: 3px;
+                    vertical-align: middle;
+                    width: 18px;
+                    height: 13px;
+                    background-position: -23px -138px;
+                }
+            }
+        }
+
+        .info-qrcode {
+            width: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 40px;
+
+            .iq-img {
+                display: block;
+                overflow: hidden;
+                width: 108px;
+                height: 108px;
+                margin-bottom: 7px;
+                border: 1px solid #ececec;
+                border-radius: 3px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            p {
+                text-align: center;
+                line-height: 16px;
+                color: #484848;
+            }
+
+            span {
+                color: #e6186f;
+            }
+        }
+    }
+
+    .ft-link-box {
+        height: 118px;
+        margin: 0 auto;
+        padding: 26px 0 18px;
+        background-color: #1562b6;
+
+        .link {
+            margin: 0 auto;
+            color: #fff;
+            text-align: center;
+
+            a {
+                margin: 0 10px;
+                color: #fff;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .copyright {
+            margin: 20px auto 0;
+
+            p {
+                line-height: 28px;
+                color: #85b6ff;
+                text-align: center;
+
+                a {
+                    margin: 0 3px;
+                    color: #85b6ff;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+    .ft-authentication-box {
+        margin-top: 32px;
+        text-align: center;
+        height: 56px;
+    }
+}
